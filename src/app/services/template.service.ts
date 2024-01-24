@@ -14,18 +14,19 @@ import { FirestoreService } from './firestore.service';
 })
 export class TemplateService {
   private templatePrivateChatsData: any = [
-    /* 
-      {
-        privateChatPartnerId: '', // Enter the user ID with whom you want to have a private chat
-        newChatId: this.afs.createId(),
-      }
-    */
+    {
+      privateChatPartnerId: 'vcfpF4xYvTPbW4rbAONtvR2H49N2', // Enter the user ID with whom you want to have a private chat
+      newChatId: this.afs.createId(),
+    },
+
+    {
+      privateChatPartnerId: 'DHrqeLO43aWK0rbWucOF0DpaSOD2', // Enter the user ID with whom you want to have a private chat
+      newChatId: this.afs.createId(),
+    },
   ];
 
   private templateChannelChatData: string[] = [
-    /*
-      '' // Enter the channel chat ID
-    */
+    'oc8RE2cBwmcFiumljuMr', // Enter the channel chat ID
   ];
 
   constructor(
